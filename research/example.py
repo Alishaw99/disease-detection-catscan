@@ -1,3 +1,7 @@
+# The data set used in this example is from http://archive.ics.uci.edu/ml/datasets/Wine+Quality
+# P. Cortez, A. Cerdeira, F. Almeida, T. Matos and J. Reis.
+# Modeling wine preferences by data mining from physicochemical properties. In Decision Support Systems, Elsevier, 47(4):547-553, 2009.
+
 import os
 import warnings
 import sys
@@ -9,6 +13,7 @@ from sklearn.model_selection import train_test_split
 from sklearn.linear_model import ElasticNet
 from urllib.parse import urlparse
 import mlflow
+from mlflow.models.signature import infer_signature
 import mlflow.sklearn
 
 import logging
@@ -70,9 +75,17 @@ if __name__ == "__main__":
         mlflow.log_metric("r2", r2)
         mlflow.log_metric("mae", mae)
 
-        # for remote server
-        remote_server_uri = "https://dagshub.com/tariqham/Mlflow_experiment.mlflow/#/experiments/0."
-        mlflow.set.tracking_uri(remote_server_uri)
+        
+        # # For remote server only (Dagshub)
+        # remote_server_uri = "https://dagshub.com/entbappy/MLflow-Basic-Demo.mlflow"
+        # mlflow.set_tracking_uri(remote_server_uri)
+
+
+        # For remote server only (AWS)
+        remote_server_uri = "http://ec2-54-147-36-34.compute-1.amazonaws.com:5000/"
+        mlflow.set_tracking_uri(remote_server_uri)
+
+
 
         tracking_url_type_store = urlparse(mlflow.get_tracking_uri()).scheme
 

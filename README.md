@@ -46,4 +46,11 @@ pip install -r requirements.txt
 ```bash
 python app.py
 ```
+import dagshub
+dagshub.init(repo_owner='tariqham', repo_name='Mlflow_experiment', mlflow=True)
 
+import mlflow
+with mlflow.start_run():
+  mlflow.log_param('parameter name', 'value')
+  mlflow.log_metric('metric name', 1)
+  

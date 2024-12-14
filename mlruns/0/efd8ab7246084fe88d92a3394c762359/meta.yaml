@@ -1,0 +1,15 @@
+artifact_uri: file:///D:/disease-detection-catscan/mlruns/0/efd8ab7246084fe88d92a3394c762359/artifacts
+end_time: 1734144850818
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: efd8ab7246084fe88d92a3394c762359
+run_name: crawling-donkey-445
+run_uuid: efd8ab7246084fe88d92a3394c762359
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1734144845912
+status: 3
+tags: []
+user_id: tariq

@@ -1,0 +1,15 @@
+artifact_uri: file:///D:/disease-detection-catscan/mlruns/0/4fef3d2ea8184efea3cfc0cbc8f7ac52/artifacts
+end_time: 1734147024613
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 4fef3d2ea8184efea3cfc0cbc8f7ac52
+run_name: learned-penguin-612
+run_uuid: 4fef3d2ea8184efea3cfc0cbc8f7ac52
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1734147019978
+status: 3
+tags: []
+user_id: tariq

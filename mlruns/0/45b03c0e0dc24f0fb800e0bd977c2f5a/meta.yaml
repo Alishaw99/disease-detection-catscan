@@ -1,0 +1,15 @@
+artifact_uri: file:///D:/disease-detection-catscan/mlruns/0/45b03c0e0dc24f0fb800e0bd977c2f5a/artifacts
+end_time: 1734144005963
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 45b03c0e0dc24f0fb800e0bd977c2f5a
+run_name: ambitious-ant-533
+run_uuid: 45b03c0e0dc24f0fb800e0bd977c2f5a
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1734144001083
+status: 4
+tags: []
+user_id: tariq

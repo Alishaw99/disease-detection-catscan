@@ -1,0 +1,15 @@
+artifact_uri: file:///D:/disease-detection-catscan/mlruns/0/6251b56b07b64ca6ac1f7505370806fc/artifacts
+end_time: 1734147922804
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 6251b56b07b64ca6ac1f7505370806fc
+run_name: overjoyed-shad-335
+run_uuid: 6251b56b07b64ca6ac1f7505370806fc
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1734147918360
+status: 3
+tags: []
+user_id: tariq
